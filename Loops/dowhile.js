@@ -8,3 +8,12 @@ do{
     console.log(num + " X " + i + " = " + num*i);
     i++;
 } while(i<=10);
+
+
+// Question2: Take user input till the entered number is positive even number.
+  let userInput;
+  let positiveNum;
+  do{
+    userInput = prompt("Enter any positive number");
+    positiveNum = parseFloat(userInput);
+  }while(isNaN(positiveNum)||positiveNum<=0 || positiveNum %2  != 0);
