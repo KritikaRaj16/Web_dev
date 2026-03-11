@@ -25,17 +25,19 @@
 
 //Question2: Check whether a given number is prime or not.
 
-let userInput= 25;
-let isPrime = true;
-for(let i = 2; i< Math.floor(userInput/2); i++){
-    if(userInput%i === 0){
-        isPrime = false;
-        break;
-    }
-}
-if (isPrime){
-    console.log("Prime number.");
-}
-else{
-    console.log("Not a prime number.");
-}
+// let userInput= 25;
+// let isPrime = true;
+// for(let i = 2; i< Math.floor(userInput/2); i++){
+//     if(userInput%i === 0){
+//         isPrime = false;
+//         break;
+//     }
+// }
+// if (isPrime){
+//     console.log("Prime number.");
+// }
+// else{
+//     console.log("Not a prime number.");
+// }
+
+
